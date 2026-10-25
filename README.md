@@ -80,8 +80,8 @@ Install the following before running the project:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vehicle-tracking-counting.git
-cd vehicle-tracking-counting
+git clone https://github.com/razashoeb07/Vehicle-Tracking-Counting-System.git
+cd Vehicle-Tracking-Counting-System
 ```
 
 Replace `YOUR_USERNAME` with your GitHub username.
