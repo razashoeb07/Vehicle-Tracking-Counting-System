@@ -1,0 +1,14 @@
+
+ultralytics
+opencv-python
+numpy
+pandas
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+python-dotenv
+streamlit
+plotly
+python-multipart
+requests

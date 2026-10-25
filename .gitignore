@@ -1,0 +1,58 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python logs
+*.log
+
+# Generated uploads and processed videos
+uploads/*
+!uploads/.gitkeep
+
+output/*
+!output/.gitkeep
+
+computer_vision/output/*
+!computer_vision/output/.gitkeep
+
+# Test videos can be large or privately sourced
+test_videos/*
+!test_videos/.gitkeep
+
+# YOLO model weights (download separately)
+computer_vision/models/*.pt
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# Streamlit secrets
+.streamlit/secrets.toml
